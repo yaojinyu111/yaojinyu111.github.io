@@ -6,16 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: Vue | Whip</title>
+  <title>Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00) | Whip</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Whip">
-<meta property="og:url" content="http://yoursite.com/tags/Vue/index.html">
+  <meta name="description" content="Vue中常见的性能优化一.编码优化1.不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。2.vue在v-for时给每个元素绑定事件，需要事件代理。3.SPA页面采用keep-alive缓存组件。4.拆分组件( 提高复用性、增加代码的可维护性,减少不必要的渲染 )5.v-if 当值为false时内部指令不会执行,具有阻断功能，很多情况下">
+<meta name="keywords" content="Vue,性能优化">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00)">
+<meta property="og:url" content="http://yoursite.com/2020/04/14/2020-4-14-19-37/index.html">
 <meta property="og:site_name" content="Whip">
+<meta property="og:description" content="Vue中常见的性能优化一.编码优化1.不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。2.vue在v-for时给每个元素绑定事件，需要事件代理。3.SPA页面采用keep-alive缓存组件。4.拆分组件( 提高复用性、增加代码的可维护性,减少不必要的渲染 )5.v-if 当值为false时内部指令不会执行,具有阻断功能，很多情况下">
 <meta property="og:locale" content="zn-CN">
+<meta property="og:updated_time" content="2020-04-15T02:59:51.504Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Whip">
+<meta name="twitter:title" content="Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00)">
+<meta name="twitter:description" content="Vue中常见的性能优化一.编码优化1.不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。2.vue在v-for时给每个元素绑定事件，需要事件代理。3.SPA页面采用keep-alive缓存组件。4.拆分组件( 提高复用性、增加代码的可维护性,减少不必要的渲染 )5.v-if 当值为false时内部指令不会执行,具有阻断功能，很多情况下">
   
     <link rel="alternative" href="/atom.xml" title="Whip" type="application/atom+xml">
   
@@ -220,41 +225,119 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-2020-4-14-19-37" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class=" article-header">
   
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/04/14/2020-4-14-19-37/" class="archive-article-date">
-        <time datetime="2020-04-14T11:37:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-14</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	      <a class="archive-article-title" href="/2020/04/14/2020-4-14-19-37/" target="_blank">Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00)</a>
-        
+    <h1 class="article-title" itemprop="name">
+      Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00)
     </h1>
   
 
 
-        <div class="article-info info-on-right">
-          
+  
+  
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
+
+<a href="/2020/04/14/2020-4-14-19-37/" class="archive-article-date">
+        <time datetime="2020-04-14T11:37:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-14</time>
+</a>
+
+  
+  
+    
+<div style="margin-top:10px;">
+  <span class="post-time">
+    <span class="post-meta-item-icon">
+      <!-- fonts.scss -->
+      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
+      <i class="icon-statistics"></i>
+      <span class="post-meta-item-text"> 字数统计: </span>
+      <span class="post-count">345字</span>
+    </span>
+  </span>
+
+  <span class="post-time">
+    &nbsp; | &nbsp;
+    <span class="post-meta-item-icon">
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text"> 阅读时长: </span>
+      <span class="post-count">1分</span>
+    </span>
+  </span>
+</div>
+
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="Vue中常见的性能优化"><a href="#Vue中常见的性能优化" class="headerlink" title="Vue中常见的性能优化"></a>Vue中常见的性能优化</h1><h2 id="一-编码优化"><a href="#一-编码优化" class="headerlink" title="一.编码优化"></a>一.编码优化</h2><h3 id="1-不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。"><a href="#1-不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。" class="headerlink" title="1.不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。"></a>1.不要将所有的数据都放在data中，data中的数据都会增加gettter和setter，会收集对应watcher。</h3><h3 id="2-vue在v-for时给每个元素绑定事件，需要事件代理。"><a href="#2-vue在v-for时给每个元素绑定事件，需要事件代理。" class="headerlink" title="2.vue在v-for时给每个元素绑定事件，需要事件代理。"></a>2.vue在v-for时给每个元素绑定事件，需要事件代理。</h3><h3 id="3-SPA页面采用keep-alive缓存组件。"><a href="#3-SPA页面采用keep-alive缓存组件。" class="headerlink" title="3.SPA页面采用keep-alive缓存组件。"></a>3.SPA页面采用keep-alive缓存组件。</h3><h3 id="4-拆分组件-提高复用性、增加代码的可维护性-减少不必要的渲染"><a href="#4-拆分组件-提高复用性、增加代码的可维护性-减少不必要的渲染" class="headerlink" title="4.拆分组件( 提高复用性、增加代码的可维护性,减少不必要的渲染 )"></a>4.拆分组件( 提高复用性、增加代码的可维护性,减少不必要的渲染 )</h3><h3 id="5-v-if-当值为false时内部指令不会执行-具有阻断功能，很多情况下使用v-if替代v-show。"><a href="#5-v-if-当值为false时内部指令不会执行-具有阻断功能，很多情况下使用v-if替代v-show。" class="headerlink" title="5.v-if 当值为false时内部指令不会执行,具有阻断功能，很多情况下使用v-if替代v-show。"></a>5.v-if 当值为false时内部指令不会执行,具有阻断功能，很多情况下使用v-if替代v-show。</h3><h3 id="6-key保证唯一性-默认vue会采用就地复用策略"><a href="#6-key保证唯一性-默认vue会采用就地复用策略" class="headerlink" title="6.key保证唯一性 ( 默认vue会采用就地复用策略 )"></a>6.key保证唯一性 ( 默认vue会采用就地复用策略 )</h3><h3 id="7-Object-freeze-冻结数据。"><a href="#7-Object-freeze-冻结数据。" class="headerlink" title="7.Object.freeze 冻结数据。"></a>7.Object.freeze 冻结数据。</h3><h3 id="8-合理使用路由懒加载、异步组件。"><a href="#8-合理使用路由懒加载、异步组件。" class="headerlink" title="8.合理使用路由懒加载、异步组件。"></a>8.合理使用路由懒加载、异步组件。</h3><h3 id="9-尽量采用runtime运行时版本"><a href="#9-尽量采用runtime运行时版本" class="headerlink" title="9.尽量采用runtime运行时版本."></a>9.尽量采用runtime运行时版本.</h3><h3 id="10-数据持久化的问题（防抖、节流）"><a href="#10-数据持久化的问题（防抖、节流）" class="headerlink" title="10.数据持久化的问题（防抖、节流）"></a>10.数据持久化的问题（防抖、节流）</h3><h2 id="二-ue加载性能优化"><a href="#二-ue加载性能优化" class="headerlink" title="二.ue加载性能优化"></a>二.ue加载性能优化</h2><h3 id="1-第三方模块按需导入-babel-plugin-component"><a href="#1-第三方模块按需导入-babel-plugin-component" class="headerlink" title="1.第三方模块按需导入 (babel-plugin-component)"></a>1.第三方模块按需导入 (babel-plugin-component)</h3><h3 id="2-滚动到可视区域动态加载-https-tangbc-github-io-vue-virtual-scroll-list"><a href="#2-滚动到可视区域动态加载-https-tangbc-github-io-vue-virtual-scroll-list" class="headerlink" title="2.滚动到可视区域动态加载 ( https://tangbc.github.io/vue-virtual-scroll-list )"></a>2.滚动到可视区域动态加载 ( <a href="https://tangbc.github.io/vue-virtual-scroll-list" target="_blank" rel="noopener">https://tangbc.github.io/vue-virtual-scroll-list</a> )</h3><h3 id="3-图片懒加载-https-github-com-hilongjw-vue-lazyload-git"><a href="#3-图片懒加载-https-github-com-hilongjw-vue-lazyload-git" class="headerlink" title="3.图片懒加载 (https://github.com/hilongjw/vue-lazyload.git)"></a>3.图片懒加载 (<a href="https://github.com/hilongjw/vue-lazyload.git" target="_blank" rel="noopener">https://github.com/hilongjw/vue-lazyload.git</a>)</h3><h2 id="三-用户体验"><a href="#三-用户体验" class="headerlink" title="三.用户体验"></a>三.用户体验</h2><h3 id="1-app-skeleton骨架屏"><a href="#1-app-skeleton骨架屏" class="headerlink" title="1.app-skeleton骨架屏"></a>1.app-skeleton骨架屏</h3><h3 id="2-app-shellapp壳"><a href="#2-app-shellapp壳" class="headerlink" title="2.app-shellapp壳"></a>2.app-shellapp壳</h3><h3 id="3-pwa"><a href="#3-pwa" class="headerlink" title="3.pwa"></a>3.pwa</h3><h2 id="四-SEO优化"><a href="#四-SEO优化" class="headerlink" title="四.SEO优化"></a>四.SEO优化</h2><h3 id="1-预渲染插件-prerender-spa-plugin"><a href="#1-预渲染插件-prerender-spa-plugin" class="headerlink" title="1.预渲染插件 prerender-spa-plugin"></a>1.预渲染插件 prerender-spa-plugin</h3><h3 id="2-服务端渲染ssr"><a href="#2-服务端渲染ssr" class="headerlink" title="2.服务端渲染ssr"></a>2.服务端渲染ssr</h3><h2 id="五-打包优化"><a href="#五-打包优化" class="headerlink" title="五.打包优化"></a>五.打包优化</h2><h3 id="1-使用cdn的方式加载第三方模块"><a href="#1-使用cdn的方式加载第三方模块" class="headerlink" title="1.使用cdn的方式加载第三方模块"></a>1.使用cdn的方式加载第三方模块</h3><h3 id="2-多线程打包-happypack"><a href="#2-多线程打包-happypack" class="headerlink" title="2.多线程打包 happypack"></a>2.多线程打包 happypack</h3><h3 id="3-splitChunks-抽离公共文件"><a href="#3-splitChunks-抽离公共文件" class="headerlink" title="3.splitChunks 抽离公共文件"></a>3.splitChunks 抽离公共文件</h3><h3 id="4-sourceMap生成"><a href="#4-sourceMap生成" class="headerlink" title="4.sourceMap生成"></a>4.sourceMap生成</h3><h2 id="六-缓存，压缩"><a href="#六-缓存，压缩" class="headerlink" title="六.缓存，压缩"></a>六.缓存，压缩</h2><h3 id="1-客户端缓存、服务端缓存"><a href="#1-客户端缓存、服务端缓存" class="headerlink" title="1.客户端缓存、服务端缓存"></a>1.客户端缓存、服务端缓存</h3><h3 id="2-服务端gzip压缩"><a href="#2-服务端gzip压缩" class="headerlink" title="2.服务端gzip压缩"></a>2.服务端gzip压缩</h3>
+    
+
+    
+    <div class="page-reward">
+      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
+        <div class="tooltip tooltip-east">
+          <span class="tooltip-item">
+            赏
+          </span>
+          <span class="tooltip-content">
+            <span class="tooltip-text">
+              <span class="tooltip-inner">
+                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
+                    class="icon icon-quo-right"></i></p>
+                <div class="reward-box">
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/source/img/zhifubaoshoukuan.jpg">
+                    <span class="reward-type">支付宝</span>
+                  </div>
+                  
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/source/img/weixinshoukuan.png">
+                    <span class="reward-type">微信</span>
+                  </div>
+                  
+                </div>
+              </span>
+            </span>
+          </span>
+        </div>
+      </a>
+    </div>
+    
+
+    
+      <div> 
+        <ul class="post-copyright">
+          <li>
+            <strong>本文作者：</strong>
+            Whip
+          </li>
+          <li>
+            <strong>本文链接：</strong>
+            <a href="http://yoursite.com/2020/04/14/2020-4-14-19-37/" title="Tue Apr 14 2020 19:37:45 GMT+0800 (GMT+08:00)" target="_blank">http://yoursite.com/2020/04/14/2020-4-14-19-37/</a>
+          </li>
+          <li>
+            <strong>版权声明： </strong>
+            本博客所有文章除特别声明外，均采用 <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow" target="_blank">Apache License 2.0</a> 许可协议。转载请注明出处！
+          </li>
+        </ul>
+      </div>
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -270,70 +353,126 @@
 		</ul>
 	</div>
 
-          
+    
 
+    
+
+    
+    
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a> -->
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/04/14/2020-4-14-19-37/" alt="微信分享二维码"> -->
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+
+    
+    <div class="clearfix"></div>
+  </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/04/14/2020.4.14/" class="archive-article-date">
-        <time datetime="2020-04-13T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-14</time>
-</a>
 
-        </div>
-    	 
+
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-	
-	      <a class="archive-article-title" href="/2020/04/14/2020.4.14/" target="_blank">2020-4-14</a>
+    <a href="/2020/04/15/2020-4-15-9-38/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
         
-    </h1>
+          Wed Apr 15 2020 00:00:00 GMT+0800 (GMT+08:00)
+        
+      </div>
+    </a>
   
+  
+    <a href="/2020/04/14/2020.4.14/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2020-4-14</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Vue</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Vue面试题</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">自我总结</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+        
+        
+    </div>
+</aside>
 
-    
+
+
+
+
+<div id="SOHUCS" sid="2020-4-14-19-37" ></div> 
+<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: "true",
+        conf: "true"
+    });
+</script>
+</script>
+
+
+
+
+
+
+
+
 
 
           </div>
@@ -373,9 +512,9 @@
 	var yiliaConfig = {
 		mathjax: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,
